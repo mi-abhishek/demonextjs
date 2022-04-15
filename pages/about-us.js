@@ -14,12 +14,3 @@ export default function Aboutus(){
         </Layout>
     )
 }
-
-export async function getStaticProps(context){
-    return{
-        redirect:{
-            destination: '/',
-            permanent: true
-        }
-    }
-}
